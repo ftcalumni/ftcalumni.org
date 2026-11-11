@@ -4,4 +4,7 @@
 @charset "utf-8";
 
 // Import partials from `sass_dir` and set theme here
-@use "athena-theme";
+@use "athena-theme" with (
+  $title-font-family: ("Cormorant", serif),
+  $body-font-family: ("Inter", sans-serif),
+);
