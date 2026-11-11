@@ -1,0 +1,67 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+#
+# If you need help with YAML syntax, here are some quick references for you:
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
+#
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
+title: Federal Trade Commission Alumni Association
+email: info@ftcalumni.org
+description: >- # this means to ignore newlines until "baseurl:"
+  The Federal Trade Commission Alumni Association is an organization of former
+  employees of the Federal Trade Commission.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://www.ftcalumni.org" # the base hostname & protocol for your site
+twitter_username: jekyllrb
+github_username:  jekyll
+
+# Build settings
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+
+sass:
+  style: compressed
+
+compress_html:
+  comments: ["<!-- ", " -->"]
+  clippings: all
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+exclude:
+  # - .sass-cache/
+  # - .jekyll-cache/
+  # - gemfiles/
+  # - Gemfile
+  # - Gemfile.lock
+  # - node_modules/
+  # - vendor/bundle/
+  # - vendor/cache/
+  # - vendor/gems/
+  # - vendor/ruby/
+  - .bundle/
+  - README.md
+  - LICENSE
+  - .gitignore
+  - CNAME
