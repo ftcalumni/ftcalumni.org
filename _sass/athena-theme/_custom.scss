@@ -8,3 +8,7 @@ h5,
 h6 {
   font-family: $title-font-family;
 }
+
+@media (min-width: $breakpoint-lg) {
+  header { margin-bottom: $spacer-4; }
+}
