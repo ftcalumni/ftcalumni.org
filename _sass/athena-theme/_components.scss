@@ -5,23 +5,25 @@
 
 // Code formatting
 pre {
-    border-left: $spacer-1 solid $color-border;
-    margin: $spacer-3 0;
-    padding-left: 16px;
-    width: (math.div(9, 12) * 100%); // matches col-9
-    overflow-x: auto;
+  border-left: $spacer-1 solid $color-border;
+  margin: $spacer-3 0;
+  padding-left: 16px;
+  width: (math.div(9, 12) * 100%); // matches col-9
+  overflow-x: auto;
 }
 
 code {
-    color: $color-code;
-    font-size: $body-font-size;
-    padding: 1px 4px;
+  color: $color-code;
+  font-size: $body-font-size;
+  padding: 1px 4px;
 }
 
 
 .prose {
 
-  p, ol, ul {
+  p,
+  ol,
+  ul {
     font-size: $prose-font-size;
     margin-bottom: 1em;
     width: 100%;
@@ -32,14 +34,16 @@ code {
 
   }
 
-  ul, ol {
+  ul,
+  ol {
     padding-left: 40px;
   }
 
   li {
     margin-bottom: 0.5em;
 
-    ul li, ol li {
+    ul li,
+    ol li {
       margin-bottom: 0;
     }
   }
