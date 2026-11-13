@@ -5,6 +5,15 @@
 
 // Import partials from `sass_dir` and set theme here
 @use "athena-theme" with (
-  $title-font-family: ("Cormorant", serif),
+  $title-font-family: ("Lora", serif),
   $body-font-family: ("Inter", sans-serif),
+);
+
+@use "email-octopus" with (
+  $label-size: 16px,
+  $field-colour: #fff,
+  $label-colour: #2B2826,
+  $button-colour: #B54545,
+  $button-text-colour: #fff,
+  $field-border-colour: #A09992,
 );

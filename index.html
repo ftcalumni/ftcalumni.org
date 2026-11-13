@@ -1,0 +1,15 @@
+---
+layout: home
+---
+<div class="ftcalumni-eo-wrapper">
+    <h2>Join Us!</h2>
+    <p>If you are a former FTC employee, use the form below to join our alumni network!</p>
+    <script defer src="https://eocampaign1.com/form/aae2ca80-deb4-11f1-b911-c3abb1f4b5a7.js"
+        data-form="aae2ca80-deb4-11f1-b911-c3abb1f4b5a7"></script>
+    <datalist id="ftc-shops">
+    {%- for shop in site.data.shops %}
+        <option value="{{ shop.name }}">
+    {%- endfor %}
+    </datalist>
+    <script defer src="{{ '/assets/home.js' | relative_url }}"></script>
+</div>

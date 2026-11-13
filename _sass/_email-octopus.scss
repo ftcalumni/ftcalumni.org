@@ -1,0 +1,47 @@
+// Variables
+$label-size: 12px !default;
+$field-colour: #FFFFFF !default;
+$label-colour: #212529 !default;
+$button-colour: #6E54D7 !default;
+$button-text-colour: #FFFFFF !default;
+$field-border-colour: #CED4DA !default;
+
+
+.ftcalumni-eo-wrapper {
+    max-width: 520px;
+    margin: 0 auto;
+
+    @media (min-width: 600px) {
+        max-width: 600px;
+        padding: 10px 40px 25px;
+        border: 2px solid currentColor;
+    }
+
+    [data-form] {
+        .emailoctopus-form {
+            --label-size: #{$label-size} !important;
+            --base-font-size: #{$label-size} !important;
+            --field-colour: #{$field-colour} !important;
+            --label-colour: #{$label-colour} !important;
+            --button-colour: #{$button-colour} !important;
+            --button-text-colour: #{$button-text-colour} !important;
+            --field-border-colour: #{$field-border-colour} !important;
+
+            input:user-invalid {
+                border-color: red;
+            }
+
+            input:user-valid {
+                border-color: green;
+            }
+
+            input[type="submit"] {
+                margin-top: 10px;
+            }
+        }
+
+        .mastfoot a {
+            border: none;
+        }
+    }
+}

@@ -1,42 +1,25 @@
-<!DOCTYPE html>
-<html>
+---
+layout: default
+---
+<div class="container mx-auto px-2 mb-2 clearfix header-text">
+  <h1 class="h0 inline-block py-2 mt-4 header-title">{{ site.title }}</h1>
 
-  {% include head.html %}
+  <div class="clearfix mb-4 py-1">
+    <p class="h4 lh-condensed">{{ site.description }}</p>
+    <div class="col-1 sm-width-full border-top-thick">
+    </div>
+  </div>
 
-  <body>
+</div>
 
-
-    {% include header.html %}
-
-    <main>
-
-      <div class="container mx-auto px-2 mb-2 clearfix header-text">
-        <h1 class="h0 inline-block py-2 mt-4 header-title">{{ site.title }}</h1>
-
-        <div class="clearfix mb-4 py-1">
-          <p class="h4 lh-condensed">{{ site.description }}</p>
-          <div class="col-1 sm-width-full border-top-thick">
-          </div>
-        </div>
-
-      </div>
-
-      <div class="container mx-auto px-2 py-2">
-        {% assign stripped_content = content | strip_html | strip %}
-        {% if stripped_content != "" %}
-          <div class="py-2 mb-2 prose {% if site.posts.size > 0 %}border-bottom-thick{% endif %}">
-            {{ content }}
-          </div>
-        {% endif %}
-        {% for post in site.posts %}
-          {% include post_block.html %}
-        {% endfor %}
-      </div>
-
-    </main>
-
-    {% include footer.html %}
-
-  </body>
-
-</html>
+<div class="container mx-auto px-2 py-2">
+  {% assign stripped_content = content | strip_html | strip %}
+  {% if stripped_content != "" %}
+  <div class="py-2 mb-2 prose {% if site.posts.size > 0 %}border-bottom-thick{% endif %}">
+    {{ content }}
+  </div>
+  {% endif %}
+  {% for post in site.posts %}
+  {% include post_block.html %}
+  {% endfor %}
+</div>
