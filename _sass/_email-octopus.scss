@@ -11,7 +11,7 @@ $field-border-colour: #CED4DA !default;
     max-width: 520px;
     margin: 0 auto;
 
-    @media (min-width: 640px) {
+    @media (min-width: 600px) {
         max-width: 600px;
         padding: 10px 40px 25px;
         border: 2px solid currentColor;
