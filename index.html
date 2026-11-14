@@ -3,15 +3,45 @@ layout: home
 head:
   - '<link rel="preload" href="https://eocampaign1.com/form/aae2ca80-deb4-11f1-b911-c3abb1f4b5a7.js" as="script" fetchpriority="low">'
 ---
-<div class="ftcalumni-eo-wrapper">
-    <h2>Join Us!</h2>
-    <p>If you are a former FTC employee, use the form below to join our alumni network!</p>
-    <script defer src="https://eocampaign1.com/form/aae2ca80-deb4-11f1-b911-c3abb1f4b5a7.js"
-        data-form="aae2ca80-deb4-11f1-b911-c3abb1f4b5a7"></script>
-    <datalist id="ftc-shops">
-    {%- for shop in site.data.shops %}
-        <option value="{{ shop.name }}">
-    {%- endfor %}
-    </datalist>
-    <script defer src="{{ '/assets/home.js' | relative_url }}"></script>
-</div>
+
+<section aria-labelledby="stay-connected">
+    <h2 id="stay-connected">Stay connected with former colleagues</h2>
+    <p>
+        We're setting up a new alumni network to help former FTC colleagues stay connected and meet through events.
+        Your interest will help shape what comes next.
+    </p>
+</section>
+
+<section aria-labelledby="join-alumni-network">
+    <div class="ftcalumni-eo-wrapper">
+        <h2 id="join-alumni-network">Join the alumni network</h2>
+        <p>
+            Sign up to reconnect with colleagues and receive occasional emails about upcoming events.
+            <a href="#information-use">How we use your information</a>.
+        </p>
+        <script defer src="https://eocampaign1.com/form/aae2ca80-deb4-11f1-b911-c3abb1f4b5a7.js"
+            data-form="aae2ca80-deb4-11f1-b911-c3abb1f4b5a7"></script>
+        <datalist id="ftc-shops">
+            {%- for shop in site.data.shops %}
+            <option value="{{ shop.name }}">
+            {%- endfor %}
+        </datalist>
+        <script defer src="{{ '/assets/home.js' | relative_url }}"></script>
+    </div>
+</section>
+
+<section aria-labelledby="open-to-all">
+    <h2 id="open-to-all">Open to all former FTC employees</h2>
+    <p>
+        Colleagues from every division, bureau, and office are welcome.
+        Have an idea for an event or a suggestion for the network?
+        <a href="mailto:{{ site.email }}">We'd like to hear from you</a>.
+    </p>
+
+    <h2 id="information-use">How we use your information</h2>
+    <p>
+        We use your name and email to maintain the alumni network and send occasional emails about upcoming events.
+        We use your shop and departure year to confirm your former FTC employment.
+        If you provide your ZIP code, we use it to share events in your area and gauge interest in future local events.
+    </p>
+</section>
