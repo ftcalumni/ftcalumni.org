@@ -70,3 +70,8 @@ ensureElement('.emailoctopus-form .main-form [eo-label="Final Year"] input[type=
 ensureElement('.emailoctopus-form .main-form [eo-label="Zip Code"] input[type="text"]', (input) => {
   input.setAttribute('pattern', '\\d{5}');
 });
+
+// Click no on alumni directory (set default)
+ensureElement('.emailoctopus-form .main-form [eo-label="Directory"] input[type="radio"][value="2"]', (input) => {
+  input.click();
+});
