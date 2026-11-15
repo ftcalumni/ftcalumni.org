@@ -7,6 +7,11 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.ftcalumni.org" # the base hostname & protocol for your site
 github_username: ftcalumni
 
+collections:
+  posts:
+    output: true
+    permalink: /posts/:title/
+
 # Build settings
 plugins:
   - jekyll-seo-tag

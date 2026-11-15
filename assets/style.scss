@@ -7,6 +7,7 @@
 @use "athena-theme" with (
   $title-font-family: ("Lora", serif),
   $body-font-family: ("Inter", sans-serif),
+  $spacer: 10px,
 );
 
 @use "email-octopus" with (
