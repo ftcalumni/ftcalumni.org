@@ -12,6 +12,12 @@ collections:
     output: true
     permalink: /posts/:title/
 
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/img/screenshot.png
+
 # Build settings
 plugins:
   - jekyll-seo-tag
