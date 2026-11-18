@@ -8,4 +8,8 @@ The mission of the FTC Alumni Association is to promote both social and professi
 
 ## Current leadership
 
-_Coming Soon_
+* [Emily Blackburn](https://www.kslaw.com/people/emily-blackburn)
+* [Ian Meeker](https://imeeker.com)
+* [Nandu Machiraju](https://www.linkedin.com/in/nmachiraju)
+
+Interested in helping out, [let us know](info@ftcalumni.org)!
