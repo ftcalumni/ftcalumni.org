@@ -13,4 +13,4 @@ The mission of the FTC Alumni Association is to promote both social and professi
 * [Nandu Machiraju](https://www.linkedin.com/in/nmachiraju)
 * [Matthew Thomas](https://www.matthewthom.as) (scaffolding)
 
-Interested in helping out, [let us know](info@ftcalumni.org)!
+Interested in helping out, [let us know](mailto:info@ftcalumni.org)!
