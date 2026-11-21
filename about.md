@@ -8,12 +8,13 @@ The mission of the FTC Alumni Association is to promote both social and professi
 
 ## Contacts
 
-* [Emily Blackburn](https://www.kslaw.com/people/emily-blackburn)
-* [Alicia Burns-Wright](https://www.linkedin.com/in/alicia-burns-wright)
-* [Mike LeGower](https://www.nera.com/experts/l/mike-legower.html)
-* [Nandu Machiraju](https://www.linkedin.com/in/nmachiraju)
-* [Ian Meeker](https://imeeker.com)
-* [Matthew Thomas](https://www.matthewthom.as)
-* [Rebecca Unruh](https://www.wilmerhale.com/en/people/rebecca-unruh)
+* [**Emily Blackburn**](https://www.kslaw.com/people/emily-blackburn)
+* [**Alicia Burns-Wright**](https://www.linkedin.com/in/alicia-burns-wright)
+* [**Mike LeGower**](https://www.nera.com/experts/l/mike-legower.html)
+* [**Nandu Machiraju**](https://www.linkedin.com/in/nmachiraju)
+* [**Ian Meeker**](https://imeeker.com)
+* [**Matthew Thomas**](https://www.matthewthom.as)
+* [**Rebecca Unruh**](https://www.wilmerhale.com/en/people/rebecca-unruh)
+{: .star-list .text-navy }
 
 Interested in helping out, [let us know](mailto:info@ftcalumni.org)!

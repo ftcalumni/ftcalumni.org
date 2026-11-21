@@ -14,3 +14,42 @@ h6 {
     margin-bottom: $spacer-4;
   }
 }
+
+.text-navy {
+  color: $navy;
+
+  a:hover {
+    color: $navy;
+  }
+}
+
+/* Stars on lists */
+ul.star-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+ul.star-list li {
+  display: flex;
+  align-items: center;
+  gap: 0.25em;
+}
+
+ul.star-list li::before {
+  content: "";
+  width: 0.9em;
+  height: 0.9em;
+  background-color: currentColor;
+
+  /* 10-point polygon coordinates for a 5-pointed star */
+  clip-path: polygon(50% 0%,
+      61% 35%,
+      98% 35%,
+      68% 57%,
+      79% 91%,
+      50% 70%,
+      21% 91%,
+      32% 57%,
+      2% 35%,
+      39% 35%);
+}
