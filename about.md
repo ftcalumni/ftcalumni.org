@@ -6,11 +6,14 @@ permalink: /about/
 
 The mission of the FTC Alumni Association is to promote both social and professional interaction among members. We were founded in 2026 and are not officially affiliated with the Federal Trade Commission.
 
-## Current leadership
+## Key contacts
 
 * [Emily Blackburn](https://www.kslaw.com/people/emily-blackburn)
-* [Ian Meeker](https://imeeker.com)
+* [Alicia Burns-Wright](https://www.linkedin.com/in/alicia-burns-wright)
+* [Mike LeGower](https://www.nera.com/experts/l/mike-legower.html)
 * [Nandu Machiraju](https://www.linkedin.com/in/nmachiraju)
-* [Matthew Thomas](https://www.matthewthom.as) (scaffolding)
+* [Ian Meeker](https://imeeker.com)
+* [Matthew Thomas](https://www.matthewthom.as)
+* [Rebecca Unruh](https://www.wilmerhale.com/en/people/rebecca-unruh)
 
 Interested in helping out, [let us know](mailto:info@ftcalumni.org)!
