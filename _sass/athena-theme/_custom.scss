@@ -23,6 +23,29 @@ h6 {
   }
 }
 
+/* Icons and social links */
+.social-links {
+    display: flex;
+    gap: 0.55em;
+    justify-content: flex-end;
+    align-items: center;
+
+    a {
+        border: none;
+    }
+
+    a:hover {
+        color: $burgundy;
+    }
+}
+
+.icon {
+    width: 1.25em;
+    height: 1.25em;
+    fill: currentColor;
+    text-decoration: none;
+}
+
 /* Stars on lists */
 ul.star-list {
   list-style: none;

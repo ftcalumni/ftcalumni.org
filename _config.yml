@@ -7,6 +7,11 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.ftcalumni.org" # the base hostname & protocol for your site
 github_username: ftcalumni
 
+social:
+  links: 
+    - https://www.linkedin.com/company/ftcalumni/
+    - https://github.com/ftcalumni
+
 collections:
   posts:
     output: true

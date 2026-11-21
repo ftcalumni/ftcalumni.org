@@ -1,9 +1,23 @@
+{% assign linkedin_url = site.social.links | where_exp: "link", "link contains 'linkedin.com'" | first %}
+{% assign github_url = site.social.links | where_exp: "link", "link contains 'github.com'" | first %}
+
+
 <footer class="container mx-auto clearfix mt-2 mt-lg-4 px-2">
   <div class="border-top-thick">
     <p class="col-8 sm-width-full left mt-2 mb-0 mb-lg-2">Last updated: {{ site.time | date: '%B %d, %Y' }}</p>
-    <ul class="list-reset sm-width-full right mt-2 mb-2">
+    <ul class="social-links list-reset sm-width-full right mt-2 mb-2">
+      {% if linkedin_url %}
       <li class="inline-block">
-        <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+        <a href="{{ linkedin_url }}" target="_blank" rel="noopener" aria-label="LinkedIn" title="LinkedIn">{% include snippets/icon.html name="linkedin" %}</a>
+      </li>
+      {% endif %}
+      {% if github_url %}
+      <li class="inline-block">
+        <a href="{{ github_url }}" target="_blank" rel="noopener" aria-label="GitHub" title="GitHub">{% include snippets/icon.html name="github" %}</a>
+      </li>
+      {% endif %}
+      <li class="inline-block">
+        <a href="mailto:{{ site.email }}" aria-label="Email" title="{{ site.email }}">{% include snippets/icon.html name="envelope" %}</a>
       </li>
     </ul>
   </div>

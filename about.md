@@ -15,6 +15,6 @@ The mission of the FTC Alumni Association is to promote both social and professi
 * [**Ian Meeker**](https://imeeker.com)
 * [**Matthew Thomas**](https://www.matthewthom.as)
 * [**Rebecca Unruh**](https://www.wilmerhale.com/en/people/rebecca-unruh)
-{: .star-list .text-navy }
+{: .star-list }
 
 Interested in helping out, [let us know](mailto:info@ftcalumni.org)!
